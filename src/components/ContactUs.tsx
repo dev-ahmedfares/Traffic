@@ -4,7 +4,7 @@ import ContactUsForm from "./forms/ContactUsForm";
 
 function ContactUs() {
   return (
-    <div className="pb-12 mt-8">
+    <div className="pb-12 mt-8 container">
       <div className="flex flex-col items-center justify-center">
         <h2 className="font-fireSans text-5xl font-semibold">Contact Us</h2>
         <p className="mt-4 text-xl tracking-wide">We Are Here For Your Help</p>
