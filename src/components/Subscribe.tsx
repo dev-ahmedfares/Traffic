@@ -2,9 +2,9 @@ import React from "react";
 import BtnPrimary from "./shared/BtnPrimary";
 import { Form, FormControl, FormField, FormItem } from "./ui/form";
 import { Input } from "./ui/input";
-import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
+import { useForm } from "react-hook-form";
 
 const formSchema = z.object({
   email: z.string(),
@@ -35,7 +35,7 @@ function Subscribe() {
       </div>
       <div>
         <Form {...form}>
-          <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+          <form onSubmit={form.handleSubmit(onSubmit)} className=" flex items-center">
             <FormField
               control={form.control}
               name="email"
@@ -43,8 +43,8 @@ function Subscribe() {
                 <FormItem>
                   <FormControl>
                     <Input
-                      placeholder="Full Name..."
-                      className="!shadow-light-100 min-h-[52px] !rounded-[8px] border-none text-sm focus:!ring-0"
+                      placeholder="Write Your Email Here..."
+                      className="!shadow-light-100 min-h-[52px] !rounded-[8px] !border-[#E7CAAA] !bg-[#F9F8F6] text-sm !text-sec-100 focus:!ring-0"
                       {...field}
                     />
                   </FormControl>
