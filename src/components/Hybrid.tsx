@@ -10,7 +10,7 @@ function Hybrid() {
         </h2>
         <p className="text-sec-1 mx-auto mt-4 max-w-5xl">
           Hybrid working offers you the freedom to work closer to clients,
-          colleagues or home. It's also greener and more cost-effective. With
+          colleagues or home. It&apos;s also greener and more cost-effective. With
           over 4,000 locations globally, nobody is better placed than Regus to
           help you make the best of it.
         </p>
