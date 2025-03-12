@@ -16,25 +16,23 @@ import { Textarea } from "../ui/textarea";
 import BtnPrimary from "../shared/BtnPrimary";
 
 const formSchema = z.object({
-//   fullName: z.string().min(2, {
-//     message: "Full Name must be at least 2 characters.",
-//   }),
-//   email: z.string().email(),
-//   phone: z.string().min(10, {
-//     message: "Full Name must be at least 10 Number.",
-//   }),
-//   city: z.string().min(2, {
-//     message: "Full Name must be at least 2 characters.",
-//   }),
-//   message: z.string().min(10, {
-//     message: "Full Name must be at least 10 characters.",
-//   }),
+  fullName: z.string(),
+  email: z.string(),
+  phone: z.string(),
+  city: z.string(),
+  message: z.string(),
 });
 
 function ContactUsForm() {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
-    
+    defaultValues:{
+      fullName:"",
+      email:"",
+      phone:"",
+      city:"",
+      message:""
+    }
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
