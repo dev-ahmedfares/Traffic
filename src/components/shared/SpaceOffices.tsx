@@ -32,12 +32,12 @@ function SpaceOffice({
       <div>
         <Image
           alt="icon"
-          className={`${isActive ? "" : "group-hover:hidden"} ${isFirst ? "filter-custom" : ""} `}
+          className={`${isActive ? "" : "group-hover:hidden"} ${isFirst && !isActive ? "filter-custom" : ""} `}
           src={!isActive && iconTwo ? iconTwo : icon}
           width={24}
           height={24}
         />
-        {iconTwo && (
+        {iconTwo && !isActive && (
           <Image
             alt="icon"
             className={`hidden group-hover:!block`}
