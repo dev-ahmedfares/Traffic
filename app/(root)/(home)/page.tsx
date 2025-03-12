@@ -42,7 +42,7 @@ export default function Home() {
 
       <Titles />
 
-      <Subscribe />
+      {/* <Subscribe /> */}
 
       {/* Footer */}
 
