@@ -89,7 +89,7 @@ function Pricing() {
             </div>
           </div>
         </div>
-        <div className="flex-1">
+        <div className="flex-1 ">
           <div className="grid grid-cols-3 place-items-end gap-4">
             <PriceCard
               head="For individuals"

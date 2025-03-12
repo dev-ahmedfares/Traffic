@@ -8,6 +8,7 @@ import LatestList from "@/components/LatestList";
 import Pricing from "@/components/Pricing";
 import Footer from "@/components/shared/Footer";
 import SharedSpace from "@/components/SharedSpace";
+import Subscribe from "@/components/Subscribe";
 import Titles from "@/components/Titles";
 import Works from "@/components/Works";
 
@@ -23,29 +24,29 @@ export default function Home() {
       <LatestList />
 
       {/* Shared Space Section */}
-      <SharedSpace/>
+      <SharedSpace />
 
       {/* Works Section */}
-      <Works/>
+      <Works />
 
       {/* Hybrid */}
-      <Hybrid/>
-    
-      <Explore/>
+      <Hybrid />
 
-      <Pricing/>
+      <Explore />
 
-      <Articles/>
+      <Pricing />
+
+      <Articles />
 
       <ContactUs />
 
-      <Titles/>
+      <Titles />
 
-      {/* TODO Subscribe Section */}
+      <Subscribe />
 
       {/* Footer */}
 
-      <Footer/>
+      <Footer />
     </div>
   );
 }
