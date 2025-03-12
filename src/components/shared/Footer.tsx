@@ -4,6 +4,8 @@ import React from "react";
 import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { Button } from "../ui/button";
+import img from "/assets/images/logo-png-1.svg"
+
 
 function Footer() {
   return (
@@ -11,7 +13,7 @@ function Footer() {
       <div className="container grid grid-cols-4 gap-4 border-y border-[rgba(180,157,151,0.43)] py-8">
         <div className="flex flex-col items-center gap-2">
           <div className="relative h-[120px] w-[120px]">
-            <Image src="/assets/images/logo-png-1.svg" fill alt="logo" />
+            <Image src={img} fill alt="logo" />
           </div>
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-4">

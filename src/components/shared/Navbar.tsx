@@ -14,6 +14,8 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { LiaFlagUsaSolid } from "react-icons/lia";
+import flag from "../../../public/assets/icons/Saudi.svg"
+
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -69,7 +71,7 @@ function Navbar() {
                   <Image
                     width={18}
                     height={18}
-                    src={"/assets/icons/saudi.svg"}
+                    src={flag}
                     alt="flag"
                   />
                 </div>
