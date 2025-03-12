@@ -108,8 +108,9 @@ module.exports = {
       boxShadow: {
         "light-100": "0px 8px 4px 0px rgba(191, 189, 189, 0.04)",
       },
-      backgroundImage:{
-        titleBg: "url('/assets/images/background-2.svg')" 
+      backgroundImage: {
+        titleBg: "url('/assets/images/background-2.svg')",
+        mask: "url('/assets/images/Mask.svg')",
       },
       screens: {
         xs: "420px",

@@ -8,7 +8,7 @@ import LatestList from "@/components/LatestList";
 import Pricing from "@/components/Pricing";
 import Footer from "@/components/shared/Footer";
 import SharedSpace from "@/components/SharedSpace";
-// import Subscribe from "@/components/Subscribe";
+import Subscribe from "@/components/Subscribe";
 import Titles from "@/components/Titles";
 import Works from "@/components/Works";
 
@@ -42,7 +42,7 @@ export default function Home() {
 
       <Titles />
 
-      {/* <Subscribe /> */}
+      <Subscribe />
 
       {/* Footer */}
 
