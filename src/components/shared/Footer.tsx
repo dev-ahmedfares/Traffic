@@ -4,7 +4,7 @@ import React from "react";
 import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { Button } from "../ui/button";
-import img from "/assets/images/logo-png-1.svg"
+import img from "../../../public/assets/images/Logo-png-1.svg"
 
 
 function Footer() {
