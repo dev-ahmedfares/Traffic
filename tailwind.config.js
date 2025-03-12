@@ -123,6 +123,9 @@ module.exports = {
       filter: {
         "custom-filter":
           "invert(98%) sepia(48%) saturate(546%) hue-rotate(311deg) brightness(117%) contrast(94%)",
+
+        custom:
+          "invert(100%) sepia(13%) saturate(2%) hue-rotate(54deg) brightness(107%) contrast(101%)",
       },
     },
   },
